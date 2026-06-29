@@ -762,11 +762,11 @@ let data = JSON.parse(localStorage.getItem('su_v4_data') || '[]');
 
 // % como porcentaje (60 = 60%)
 let datosComisiones = JSON.parse(localStorage.getItem('su_v4_socios') || 'null') || [
-  {id:1, socio:'Marcos Sanhueza',   pct:60},
-  {id:2, socio:'Encuentra Tu Dpto', pct:70},
-  {id:3, socio:'Tarija',            pct:60},
-  {id:4, socio:'Andrés Cristi',      pct:60},
-  {id:5, socio:'Pedro Lagos',       pct:60}
+  {id:1, socio:'Marcos Sanhueza',   pct:60, clave:'marcos2024'},
+  {id:2, socio:'Encuentra Tu Dpto', pct:70, clave:'encuentra2024'},
+  {id:3, socio:'Tarija',            pct:60, clave:'tarija2024'},
+  {id:4, socio:'Andrés Cristi',     pct:60, clave:'andres2024'},
+  {id:5, socio:'Pedro Lagos',       pct:60, clave:'pedro2024'}
 ];
 
 let datosUF = JSON.parse(localStorage.getItem('su_v4_uf') || 'null') || [
